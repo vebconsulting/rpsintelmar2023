@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@eswaribala 
-eswaribala
-/
-devopsintelsep2022
-Public
-Fork your own copy of eswaribala/devopsintelsep2022
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-devopsintelsep2022/git.txt
-@eswaribala
-eswaribala Update git.txt
-Latest commit 64f9a4d on Sep 14, 2022
- History
- 1 contributor
-174 lines (104 sloc)  2.92 KB
-
 Step1: To install git software in Ubuntu
 
 sudo apt-get install git
@@ -202,19 +171,3 @@ git push origin master
 
 
 
-
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-devopsintelsep2022/git.txt at master · eswaribala/devopsintelsep2022
