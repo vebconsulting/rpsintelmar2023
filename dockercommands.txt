@@ -6,8 +6,7 @@ docker network ls
 docker login
 docker pull mongo
 docker run --name mongo-c1 -p 27017:27017 -d mongo:latest #mongo server process
-docker exec -it mongo-c1 /bin/bash
-#mongosh
+docker exec -it mongo-c1 mongo #creates mongo client
 docker logs <containerid>
 
 # pulling mysql images
