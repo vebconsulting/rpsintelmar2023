@@ -108,6 +108,17 @@ kubectl apply -f mysql-deployment.yaml
 kubectl get pods
 kubectl get svc
 kubectl get deploy
+
+# to test the pod mssql 
+
+kubectl exec -it myapp-db-deployment-789b766d79-kxvcq -- /bin/bash
+-----------------------
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'Vignesh@95' -Q 'CREATE DATABASE RPSDB'
+------------------------------
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'Vignesh@95' -Q 'SELECT name FROM master.dbo.sysdatabases'
+----------------------------------
+
+
 #mysql client creation
 kubectl run -it --rm --image=mysql --restart=Never mysql-client -- mysql -h mysql -ppassword
 #alternative approach to access mysql client
